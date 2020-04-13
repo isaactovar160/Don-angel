@@ -1,0 +1,101 @@
+ion-content {
+    // --ion-background-color: #1E2956;
+    color: #1E2956;
+}
+
+// .Profile-tittle {
+//     text-align: center;
+//     // margin-top: 50px;
+//     margin-bottom: 25px;
+//     color: #1E2956;
+// }
+
+.Profile-image {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+ion-item {
+    color: #1E2956;
+
+}
+
+.margin {
+    margin: 20px;
+
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.row {
+    width: 100%;
+    margin-top: 8%;
+    margin-left: 37%;
+}
+
+.block {
+    display: inline;
+}
+
+.rating {
+    width: 5%;
+    height: 5%;
+
+}
+
+.habi {
+    text-align: center;
+    color: #1E2956;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5%;
+    color: #1E2956;
+    font-size: 1em;
+}
+
+.price {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #1E2956;
+    font-size: 1em;
+}
+
+.precio {
+    margin-top: 10px;
+    color: #1E2956;
+    text-align: center;
+    font-size: 2em;
+}
+
+.texto {
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #1E2956;
+}
+
+.coments {
+    margin-left: 5%;
+    font-size: 1em;
+    color: #5BD376;
+}
+
+.text_comment {
+    margin-left: 5%;
+    font-size: 0.8em;
+    color: #1E2956;
+    margin-bottom: 5%;
+}
+
+.boton {
+    margin: 10%;
+}

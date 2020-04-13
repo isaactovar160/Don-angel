@@ -1,0 +1,22 @@
+
+
+<ion-content>
+
+  <ion-list>
+    <img class="margin-top" src="../../assets/img/Don_Angel_Logo_Smartphone.png" alt="Logo_app">
+
+    <ion-item class="margin ">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" [(ngModel)]="email"> </ion-input>
+    </ion-item>
+    <ion-item class="margin">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password"> </ion-input>
+    </ion-item>
+
+
+  </ion-list>
+
+  <ion-button class="boton" fill="solid" expand="block" color="success" (click)="login()">Log In</ion-button>
+
+</ion-content>

@@ -1,0 +1,38 @@
+<ion-content>
+
+  <!-- Profile  -->
+  <div class="Profile-tittle">
+    <h2>Profile</h2>
+  </div>
+
+  <!-- Profile Pic -->
+  <div>
+    <img class="Profile-image  " src="../../assets/img/user (1).png" alt="Profile_Pic">
+  </div>
+
+
+  <!-- Information -->
+  <ion-list class="margin">
+
+    <!-- Username -->
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" [(ngModel)]="email"> </ion-input>
+    </ion-item>
+    <!-- Password -->
+    <ion-item>
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password"> </ion-input>
+    </ion-item>
+    <!-- Confirm Password -->
+    <ion-item>
+      <ion-label position="floating">Confirm Password</ion-label>
+      <ion-input type="password" [(ngModel)]="cpassword"> </ion-input>
+    </ion-item>
+
+
+  </ion-list>
+
+  <ion-button class="margin" fill="solid" expand="block" (click)="signin()">Signin</ion-button>
+
+</ion-content>

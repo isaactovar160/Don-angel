@@ -1,0 +1,73 @@
+<ion-header class="ion-no-border" translucent="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/services"></ion-back-button>
+
+      <div text-center>
+        <ion-title>Profesionales</ion-title>
+      </div>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="/services"></ion-back-button>
+  </ion-buttons>
+
+  <section>
+    <ion-card class="card1" (click)="profile()">
+      <div class="text">
+        <!-- // Nombre de Trabajador -->
+        <h4>Juan Perez</h4>
+      </div>
+
+
+      <div>
+        <div>
+          <!-- //rating de cuantas estrellas -->
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+        </div>
+        <img class="img" src="../../assets/img/user.jpg" alt="user">
+      </div>
+
+
+      <div>
+        <button class="button1" (click)="profile()">Ver Perfil</button>
+      </div>
+
+    </ion-card>
+
+    <!-- Segunda Card  -->
+
+    <ion-card class="card2" (click)="profile()">
+      <div class="text">
+        <!-- // Nombre de Trabajador -->
+        <h4>Mario Perez</h4>
+      </div>
+
+      <div>
+        <div>
+          <!-- //rating de cuantas estrellas -->
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+          <img class="rating" src="../../assets/img/star (2).png" alt="star">
+        </div>
+        <img class="img" src="../../assets/img/user2.jpg" alt="user">
+      </div>
+
+
+      <div>
+        <button class="button2" (click)="profile()">Ver Perfil</button>
+      </div>
+
+    </ion-card>
+  </section>
+</ion-content>

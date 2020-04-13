@@ -1,0 +1,40 @@
+//tamano segunda imagen
+.img_proveedor {
+    width: 50%;
+    height: 50%;
+
+    display: block;
+}
+
+// tamano de primer imagen
+.img_sad {
+    width: 35%;
+    height: 35%;
+
+    display: block;
+}
+
+//me centra todo
+.margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+///espacio de la primera card
+.card1 {
+    margin-top: 100px;
+    background-color: #00C9F3;
+
+}
+
+.card2 {
+    background-color: #FF4E36;
+}
+
+.text {
+    color: #F4F1ED;
+}

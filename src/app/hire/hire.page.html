@@ -1,9 +1,21 @@
-<ion-header>
+<ion-header class="ion-no-border" translucent="true">
   <ion-toolbar>
-    <ion-title>Mapa</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/profile"></ion-back-button>
+
+      <div text-center>
+        <ion-title>Donde te encuentras?</ion-title>
+      </div>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
   <div id="map"></div>
+
+  <ion-button class="margin" fill="solid" expand="block" (click)="payment()">
+   Aqui Estoy 
+  </ion-button>
+
 </ion-content>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router'
 
  declare var google;
 
@@ -20,7 +21,20 @@ export class HirePage implements OnInit {
  
   map =null;
 
-  constructor() { }
+  constructor(
+
+    public router: Router
+  ) { }
+
+  payment(){
+    this.router.navigate(['/payment'])
+  }
+
+
+
+
+
+
 
   ngOnInit() {
     this.loadMap();

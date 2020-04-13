@@ -61,6 +61,10 @@ const routes: Routes = [
   {
     path: 'worker-waiting',
     loadChildren: () => import('./worker-waiting/worker-waiting.module').then( m => m.WorkerWaitingPageModule)
+  },
+  {
+    path: 'payment',
+    loadChildren: () => import('./payment/payment.module').then( m => m.PaymentPageModule)
   }
 ];
 @NgModule({
